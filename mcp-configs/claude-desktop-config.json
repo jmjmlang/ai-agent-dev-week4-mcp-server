@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "person": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://ai-agent-dev-week4-mcp-server.vercel.app/api/mcp",
+        "--header",
+        "Authorization: Bearer ${PERSON_MCP_KEY}"
+      ],
+      "env": {
+        "PERSON_MCP_KEY": "wkmcp_REPLACE_WITH_REAL_KEY"
+      }
+    }
+  }
+}
