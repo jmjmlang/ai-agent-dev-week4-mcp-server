@@ -5,7 +5,7 @@
       "args": [
         "-y",
         "mcp-remote",
-        "https://ai-agent-dev-week4-mcp-server.vercel.app/api/mcp",
+        "https://ai-agent-dev-week4-mcp-server-r7yr-bdgn7vb9r-jmjmlangs-projects.vercel.app/api/mcp",
         "--header",
         "Authorization: Bearer ${PERSON_MCP_KEY}"
       ],

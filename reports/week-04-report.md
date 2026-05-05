@@ -116,9 +116,11 @@ project, since Week 3 owns the schema timeline. One env var:
 `DATABASE_URL`. The deployed `/api/mcp` URL is what the Claude and VS Code
 configs point at.
 
+Live endpoint:
+`https://ai-agent-dev-week4-mcp-server-r7yr-bdgn7vb9r-jmjmlangs-projects.vercel.app/api/mcp`
+
 ## Open items
 
-- The deployed Vercel URL — recorded after deploy.
 - A revocation UI on the Week 3 app would be nice (right now you'd have to
   edit the `revokedAt` column directly via Prisma Studio). Not in scope
   for this week.

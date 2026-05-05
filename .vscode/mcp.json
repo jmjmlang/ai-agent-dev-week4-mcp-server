@@ -11,7 +11,7 @@
   "servers": {
     "person": {
       "type": "http",
-      "url": "https://ai-agent-dev-week4-mcp-server.vercel.app/api/mcp",
+      "url": "https://ai-agent-dev-week4-mcp-server-r7yr-bdgn7vb9r-jmjmlangs-projects.vercel.app/api/mcp",
       "headers": {
         "Authorization": "Bearer ${input:person_mcp_key}"
       }
