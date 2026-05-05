@@ -1,0 +1,20 @@
+{
+  "$schema": "https://aka.ms/vscode/mcp/schema",
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "person_mcp_key",
+      "description": "Bearer API key for the Week 4 Person MCP server (starts with wkmcp_)",
+      "password": true
+    }
+  ],
+  "servers": {
+    "person": {
+      "type": "http",
+      "url": "https://ai-agent-dev-week4-mcp-server.vercel.app/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:person_mcp_key}"
+      }
+    }
+  }
+}
